@@ -12,3 +12,11 @@ Execute um cluster Swarm localmente usando o [Vanguard](https://www.modbusdriver
 * Swarm node 2 (node01): 10.10.10.101
 
 As imagem utilizadas foram do: [generic/ubuntu1804](https://app.vagrantup.com/generic/boxes/ubuntu1804)
+
+# Para utilizar
+
+```
+$ git clone https://github.com/pjmenezes/vagrantfile.git
+$ cd vagrant
+$ vagrant up --provider=libvirt
+```
